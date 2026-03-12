@@ -1,2 +1,10 @@
 [nginx-botsearch]
 enabled = true
+
+[postfix]
+enabled = true
+mode = aggressive
+
+[dovecot]
+enabled = true
+mode = aggressive
