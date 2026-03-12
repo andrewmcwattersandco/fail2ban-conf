@@ -1,3 +1,6 @@
+[nginx-bad-request]
+enabled = true
+
 [nginx-botsearch]
 enabled = true
 
