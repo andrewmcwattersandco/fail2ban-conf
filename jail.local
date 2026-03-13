@@ -1,13 +1,17 @@
 [nginx-bad-request]
 enabled = true
+logpath = /var/log/nginx/access.log
 
 [nginx-botsearch]
 enabled = true
+logpath = /var/log/nginx/access.log
 
 [postfix]
 enabled = true
 mode = aggressive
+logpath = /var/log/mail.log
 
 [dovecot]
 enabled = true
 mode = aggressive
+logpath = /var/log/mail.log
