@@ -1,0 +1,2 @@
+[Definition]
+_bypass_reject_reason = (?:: (?:\w+\([^\):]*\) \w+|[^\(]+))*(?:: \w[^\(]*)?
