@@ -1,3 +1,8 @@
+[DEFAULT]
+bantime = 1h
+bantime.increment = true
+bantime.overalljails = true
+
 [nginx-bad-request]
 enabled = true
 backend = auto
@@ -19,3 +24,6 @@ enabled = true
 mode = aggressive
 backend = auto
 logpath = /var/log/mail.log
+
+[recidive]
+enabled = true
